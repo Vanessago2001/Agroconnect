@@ -1,0 +1,59 @@
+:root {
+  --color-fondo: #EAFFD5;
+  --color-botones: #96B571;
+  --color-cuadrosyventanas: #D6FFAC;
+}
+
+/* Fondo general */
+body {
+  background-color: var(--color-fondo);
+  margin: 0; /* Elimina espacio blanco alrededor */
+  padding: 0;
+}
+
+/* --- NAV --- */
+nav.navbar {
+  width: 100%; /* Asegura que ocupe todo el ancho */
+  background-color: var(--color-botones);
+  padding: 0.5rem 1rem; /* Espaciado interno */
+  box-sizing: border-box;
+  
+}
+
+/* Íconos blancos */
+i {
+  color: white;
+}
+
+/* Menú lateral */
+.offcanvas {
+  background-color: var(--color-botones);
+}
+
+/* Enlaces del menú */
+.nav-link {
+  color: black;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: var(--color-botones);
+}
+
+.nav-link.active {
+  color: var(--color-botones);
+  font-weight: bold;
+}
+
+/* Botón hamburguesa */
+.navbar-toggler {
+  background-color: var(--color-botones);
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
+}
+/* --- ICONO HAMBURGUESA BLANCO --- */
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
