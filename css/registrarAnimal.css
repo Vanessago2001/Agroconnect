@@ -1,0 +1,68 @@
+:root {
+  --color-fondo: #EAFFD5;
+  --color-botones: #96B571;
+  --color-cuadrosyventanas: #D6FFAC;
+}
+
+/* Fondo general */
+body {
+  background-color: var(--color-fondo);
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+}
+
+/* Caja principal */
+.animal-box {
+  background-color: var(--color-cuadrosyventanas);
+  width: 90%;
+  max-width: 400px;
+}
+
+/* Título */
+.titulo {
+  color: #33691E;
+  text-shadow: 1px 1px 2px #8bc34a;
+  font-size: 1.2rem;
+}
+
+/* Cuadro de subida */
+.upload-box {
+  background-color: var(--color-cuadrosyventanas);
+  border-radius: 12px;
+  width: 120px;
+  height: 120px;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.upload-box:hover {
+  transform: scale(1.05);
+  background-color: var(--color-botones);
+}
+
+/* Campos */
+.campo {
+  background-color: var(--color-cuadrosyventanas);
+  border: none;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+
+/* Botón Guardar */
+.btn-guardar {
+  background-color: var(--color-botones);
+  color: black;
+  font-weight: bold;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.3);
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.btn-guardar:hover {
+  background-color: #7EA85D;
+  transform: scale(1.03);
+}

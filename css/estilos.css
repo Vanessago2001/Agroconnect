@@ -1,0 +1,85 @@
+body {
+  background-color: #EAFFD5; 
+  font-family: 'Segoe UI', sans-serif;
+}
+
+
+.login-container {
+  max-width: 380px;
+  margin: 80px auto;
+  background-color: #D6FFAC;
+  padding: 35px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(150, 181, 113, 0.3); 
+  text-align: center;
+}
+
+
+.logo img {
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+.logo-text {
+  font-size: 23px;
+  font-weight: bold;
+  color: #4A4A00;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+}
+
+
+.form-label {
+  font-weight: 600;
+  font-size: 14px;
+  color: #4A4A00; 
+}
+
+
+.form-control {
+  background-color: #ffffff;
+  border: 1px solid #B5D38E; 
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 14px;
+  margin-bottom: 15px;
+  transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #96B571; 
+  box-shadow: 0 0 5px rgba(150, 181, 113, 0.5);
+}
+
+
+.btn-login {
+  background-color: #96B571; 
+  color: white;
+  font-weight: 600;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.btn-login:hover {
+  background-color: #7AA763; 
+}
+
+
+.register-link {
+  display: block;
+  margin-top: 15px;
+  color: #4A4A00;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.register-link:hover {
+  color: #96B571;
+  text-decoration: underline;
+}
